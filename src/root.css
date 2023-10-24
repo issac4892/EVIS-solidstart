@@ -1,0 +1,17 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable-dynamic-subset.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Pretendard Variable', sans-serif;
+}
+
+.gradient {
+  background: linear-gradient(90deg, #4481EB 0%, #04BEFE 100%);
+}
+
+.gradient_shisun {
+  background: linear-gradient(90deg, #FF8080 0%, #FFDC80 100%);
+}

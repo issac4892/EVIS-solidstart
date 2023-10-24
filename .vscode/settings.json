@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "DEV",
+            "database": "${workspaceFolder:evis-solid}/prisma/dev.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
