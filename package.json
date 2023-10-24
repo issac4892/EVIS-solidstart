@@ -21,6 +21,8 @@
     "prisma": "^4.16.2",
     "solid-js": "^1.8.3",
     "solid-start": "^0.3.8",
+    "solid-start-cloudflare-pages": "^0.3.8",
+    "solid-start-vercel": "^0.3.8",
     "tailwindcss": "^3.3.3"
   },
   "engines": {

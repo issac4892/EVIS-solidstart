@@ -10,7 +10,7 @@ interface ExamRoom {
     room: string;
 };
 
-const code = "STU-RYAN";
+const code = "STU-MIGI";
 
 
 await prisma.examroom.create({
