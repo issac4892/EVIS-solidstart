@@ -1,13 +1,14 @@
 import { Show } from "solid-js";
-import { createRouteAction, redirect } from "solid-start";
-import { Form } from "solid-start/data/Form";
+import { createRouteAction, useNavigate } from "solid-start";
 
 export default function PersonalCode() {
+    const navigate = useNavigate();
     const [loading, { Form }] = createRouteAction(async (form: FormData) => {
         if (!form.get("personalCode")) {
             throw "개인번호를 입력해주세요.";
         }
-        return redirect("/inquiry/" + form.get("personalCode")); 
+        
+        navigate("/inquiry/" + form.get("personalCode")); 
     });
     return (
         <main class="bg-gray-100">
